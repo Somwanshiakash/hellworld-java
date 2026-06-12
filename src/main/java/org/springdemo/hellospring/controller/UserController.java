@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 public class UserController {
-
+    // Added 'private final' and Constructor for Dependency Injection
     private final UserService userService;
 
     @Autowired
